@@ -1,0 +1,31 @@
+// SPDX-FileCopyrightText: None
+//
+// SPDX-License-Identifier: CC0-1.0
+
+= SorairoLake's Zenn Articles
+:project-url: https://github.com/sorairolake/zenn-articles
+:shields-url: https://img.shields.io
+:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/zenn-articles/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
+:ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
+:reuse-spec-url: https://reuse.software/spec/
+
+image:{ci-badge}[CI,link={ci-url}]
+
+SorairoLake's https://zenn.dev/[Zenn] articles.
+
+== URL
+
+https://zenn.dev/sorairolake
+
+== License
+
+Copyright (C) 2024 Shun Sakai
+
+. Unless otherwise noted, this blog is distributed under the terms of the
+  _Creative Commons Attribution 4.0 International Public License_.
+. In addition, some files are distributed under the terms of the _CC0 1.0
+  Universal_.
+
+This blog is compliant with version 3.0 of the
+{reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual
+files for more details on copyright and licensing information.
