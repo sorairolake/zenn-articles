@@ -5,7 +5,11 @@
 alias all := default
 
 # Run default recipe
-default: fmt
+default: preview
+
+# Preview the contents
+@preview:
+    npx zenn-cli preview -p 8080
 
 # Run the code formatter
 @fmt:
