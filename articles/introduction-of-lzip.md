@@ -125,6 +125,6 @@ xzと比較した際には利点と欠点の両方があるように思うので
 
 ## 参考文献
 
-- [Transitioning JPEG-Based to JPEG XL-Based Images for Web Platforms](https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec) - Cloudinary Blog
+- [Xz format inadequate for long-term archiving](https://www.nongnu.org/lzip/xz_inadequate.html)
 
 [^1]: <https://manpages.debian.org/bookworm/xz-utils/xz.1.en.html#DESCRIPTION>
