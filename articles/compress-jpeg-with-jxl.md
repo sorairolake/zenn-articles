@@ -81,4 +81,5 @@ https://caniuse.com/jpegxl
 - [Transitioning JPEG-Based to JPEG XL-Based Images for Web Platforms](https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec) - Cloudinary Blog
 
 [^1]: libaomはバージョン3.8.1を使用。
+
 [^2]: <https://github.com/libjxl/libjxl/blob/v0.10.2/doc/software_support.md>
