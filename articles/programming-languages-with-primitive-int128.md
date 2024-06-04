@@ -41,8 +41,13 @@ Zigでは`65535`ビットまでの任意のビット幅の整数型を宣言で�
 任意精度演算が必要な場合は標準ライブラリの[`std.math.big.int`](https://ziglang.org/documentation/0.11.0/std/#A;std:math.big.int)にある型が利用できます。
 
 [^1]: <https://docs.julialang.org/en/v1/base/numbers/#Core.Int128>
+
 [^2]: <https://docs.julialang.org/en/v1/base/numbers/#Core.UInt128>
+
 [^3]: <https://doc.rust-lang.org/std/primitive.i128.html>
+
 [^4]: <https://doc.rust-lang.org/std/primitive.u128.html>
+
 [^5]: <https://docs.soliditylang.org/en/v0.8.24/types.html#integers>
+
 [^6]: <https://ziglang.org/documentation/0.11.0/#Primitive-Types>
