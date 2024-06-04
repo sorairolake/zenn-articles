@@ -196,5 +196,7 @@ Rust製のHTTPieのようなHTTPクライアントのxhを紹介しました。
 モダンなプロトコルをサポートした手軽に利用できるHTTPクライアントとして使ってみてはどうでしょうか。
 
 [^1]: <https://github.com/ducaale/xh/tree/v0.21.0?tab=readme-ov-file#xh>
+
 [^2]: <https://github.com/ducaale/xh/tree/v0.21.0?tab=readme-ov-file#installation>
+
 [^3]: <https://github.com/ducaale/xh/tree/v0.21.0?tab=readme-ov-file#how-xh-compares-to-httpie>

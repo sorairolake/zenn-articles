@@ -187,4 +187,5 @@ bsdtar --use-compress-program bzip3 -cf git-2.43.0.tar.bz3 git-2.43.0
 多くのOSの公式リポジトリでパッケージが提供されているので気軽に使い始めることができそうです。
 
 [^1]: <https://github.com/kspalaiologos/bzip3/issues/78>
+
 [^2]: `zstd`や`lz4`と同じ。
