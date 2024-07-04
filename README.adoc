@@ -26,6 +26,6 @@ Copyright (C) 2024 Shun Sakai
 . In addition, some files are distributed under the terms of the _CC0 1.0
   Universal_.
 
-This blog is compliant with version 3.0 of the
+This blog is compliant with version 3.2 of the
 {reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual
 files for more details on copyright and licensing information.
