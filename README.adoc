@@ -21,11 +21,12 @@ https://zenn.dev/sorairolake
 
 Copyright (C) 2024 Shun Sakai
 
-. Unless otherwise noted, this blog is distributed under the terms of the
-  _Creative Commons Attribution 4.0 International Public License_.
+. Unless otherwise noted, the contents of this repository are distributed under
+  the terms of the _Creative Commons Attribution 4.0 International Public
+  License_.
 . In addition, some files are distributed under the terms of the _CC0 1.0
   Universal_.
 
-This blog is compliant with version 3.2 of the
+This repository is compliant with version 3.2 of the
 {reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual
 files for more details on copyright and licensing information.
