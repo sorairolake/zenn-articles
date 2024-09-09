@@ -55,8 +55,8 @@ https://github.com/sorairolake/nt-time/blob/v0.7.0/src/file_time/unix_time.rs#L1
 
 `FILETIME`を秒単位のUnix時間に変換するには以下のような処理を行います。
 
-1. `FILETIME`を10,000,000で割って秒単位にする。
-2. 1の結果からUnixエポックとNTタイムエポックの差の秒数の11,644,473,600を引く。
+1.  `FILETIME`を10,000,000で割って秒単位にする。
+2.  1の結果からUnixエポックとNTタイムエポックの差の秒数の11,644,473,600を引く。
 
 https://github.com/sorairolake/nt-time/blob/v0.7.0/src/file_time/unix_time.rs#L30-L34
 
@@ -64,8 +64,8 @@ https://github.com/sorairolake/nt-time/blob/v0.7.0/src/file_time/unix_time.rs#L3
 
 `FILETIME`をナノ秒単位のUnix時間に変換するには以下のような処理を行います。
 
-1. `FILETIME`に100を掛けてナノ秒単位にする。
-2. 1の結果からUnixエポックとNTタイムエポックの差のナノ秒数の11,644,473,600,000,000,000を引く。
+1.  `FILETIME`に100を掛けてナノ秒単位にする。
+2.  1の結果からUnixエポックとNTタイムエポックの差のナノ秒数の11,644,473,600,000,000,000を引く。
 
 https://github.com/sorairolake/nt-time/blob/v0.7.0/src/file_time/unix_time.rs#L57-L59
 
