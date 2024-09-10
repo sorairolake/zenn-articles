@@ -34,10 +34,10 @@ https://learn.microsoft.com/ja-jp/windows/win32/sysinfo/file-times
 
 `FileTime`は以下のような機能を実装しています。
 
-1. [`core::time::Duration`](https://doc.rust-lang.org/core/time/struct.Duration.html)などとの加算や減算
-2. [`std`](https://doc.rust-lang.org/std/index.html)や[`time`](https://crates.io/crates/time)クレートや[`chrono`](https://crates.io/crates/chrono)クレートの時間を表す型との相互変換
-3. UNIX時間やMS-DOSの日付と時刻との相互変換
-4. [Serde](https://serde.rs/)を利用したシリアライズとデシリアライズ
+1.  [`core::time::Duration`](https://doc.rust-lang.org/core/time/struct.Duration.html)などとの加算や減算
+2.  [`std`](https://doc.rust-lang.org/std/index.html)や[`time`](https://crates.io/crates/time)クレートや[`chrono`](https://crates.io/crates/chrono)クレートの時間を表す型との相互変換
+3.  UNIX時間やMS-DOSの日付と時刻との相互変換
+4.  [Serde](https://serde.rs/)を利用したシリアライズとデシリアライズ
 
 ### コード例
 
