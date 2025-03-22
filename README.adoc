@@ -7,7 +7,7 @@
 :shields-url: https://img.shields.io
 :ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/zenn-articles/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
 :ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
-:reuse-spec-url: https://reuse.software/spec/
+:reuse-spec-url: https://reuse.software/spec-3.3/
 
 image:{ci-badge}[CI,link={ci-url}]
 
