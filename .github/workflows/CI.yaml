@@ -29,8 +29,8 @@ jobs:
         run: |
           npm ci
           npx prettier -v
-      - name: Check code formatted
-        run: npx prettier -c articles books
+      - name: Run formatter in check mode
+        run: npx prettier -c "**.{json,md,yaml,yml}"
 
   lint:
     name: Lint
@@ -47,5 +47,5 @@ jobs:
         run: |
           npm ci
           npx markdownlint -V
-      - name: Check no lint warnings
+      - name: Run linter
         run: npx markdownlint articles books
