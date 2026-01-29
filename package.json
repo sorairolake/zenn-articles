@@ -18,8 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "markdownlint-cli": "^0.45.0",
-    "prettier": "^3.5.3",
-    "zenn-cli": "^0.1.161"
+    "markdownlint-cli": "^0.47.0",
+    "prettier": "^3.8.1",
+    "zenn-cli": "^0.4.3"
   }
 }

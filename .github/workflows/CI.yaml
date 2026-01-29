@@ -9,9 +9,8 @@ on:
   push:
     branches:
       - "develop"
-      - "master"
-  schedule:
-    - cron: "0 0 * * 0"
+      - "main"
+  workflow_dispatch:
 
 jobs:
   fmt:
@@ -19,9 +18,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Node.js environment
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "npm"
@@ -29,17 +28,17 @@ jobs:
         run: |
           npm ci
           npx prettier -v
-      - name: Check code formatted
-        run: npx prettier -c articles books
+      - name: Run formatter in check mode
+        run: npx prettier -c "**.{json,md,yaml,yml}"
 
   lint:
     name: Lint
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Node.js environment
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "npm"
@@ -47,5 +46,5 @@ jobs:
         run: |
           npm ci
           npx markdownlint -V
-      - name: Check no lint warnings
+      - name: Run linter
         run: npx markdownlint articles books
