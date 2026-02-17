@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 [global]
-disable = ["MD013", "MD024", "MD034", "MD060"]
+disable = ["MD013", "MD034"]
 
 [MD030]
 ol-multi = 2
