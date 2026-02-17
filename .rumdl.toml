@@ -4,7 +4,3 @@
 
 [global]
 disable = ["MD013", "MD034"]
-
-[MD030]
-ol-multi = 2
-ol-single = 2
