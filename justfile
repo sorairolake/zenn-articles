@@ -12,11 +12,11 @@ preview:
 
 # Run the code formatter
 fmt:
-    npx prettier -w articles books
+    npx prettier -w "**.{json,md,yaml,yml}"
 
 # Run the linter
 lint:
-    npx markdownlint articles books
+    uv run rumdl check .
 
 # Run the linter for GitHub Actions workflow files
 lint-github-actions:

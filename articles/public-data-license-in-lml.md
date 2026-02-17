@@ -15,7 +15,7 @@ https://github.com/sorairolake/public-data-license-lml
 公共データ利用規約は2024年7月5日にデジタル庁が定めた日本の政府や地方公共団体などの公的機関のウェブサイトで使用するための利用規約です。
 [政府標準利用規約（第2.0版）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/70143e67/20220523_resources_data_betten_03.pdf)の後継利用規約で、引き続き[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.ja)と互換性があります。
 
-公共データ利用規約（第1.0版）と政府標準利用規約（第2.0版）の主な違いは以下の通りです[^1]。
+公共データ利用規約（第1.0版）と政府標準利用規約（第2.0版）の主な違いは以下の通りです。
 
 - 雛形を各府省が書き換えて利用する方法から、本文は同一の内容を参照して、個別に規定する必要がある部分だけを別紙として規定する方法に変更。
 - 地方公共団体での利用も想定した規定に改訂。

@@ -30,21 +30,3 @@ jobs:
           npx prettier -v
       - name: Run formatter in check mode
         run: npx prettier -c "**.{json,md,yaml,yml}"
-
-  lint:
-    name: Lint
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: "npm"
-      - name: Install dependencies
-        run: |
-          npm ci
-          npx markdownlint -V
-      - name: Run linter
-        run: npx markdownlint articles books

@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2026 Shun Sakai
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[project]
+name = "zenn-articles"
+version = "1.0.0"
+requires-python = ">=3.14"
+
+[dependency-groups]
+dev = ["rumdl>=0.1.22"]
