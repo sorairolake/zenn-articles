@@ -6,13 +6,10 @@ name: rumdl
 
 on:
   pull_request:
-    paths:
-      - "**.md"
-      - ".rumdl.toml"
   push:
-    paths:
-      - "**.md"
-      - ".rumdl.toml"
+    branches:
+      - "develop"
+      - "main"
   workflow_dispatch:
 
 jobs:
