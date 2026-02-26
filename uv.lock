@@ -30,4 +30,4 @@ dev = [
 [package.metadata]
 
 [package.metadata.requires-dev]
-dev = [{ name = "rumdl", specifier = ">=0.1.22" }]
+dev = [{ name = "rumdl", specifier = ">=0.1.29" }]
