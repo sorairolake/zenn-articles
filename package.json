@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "prettier": "3.8.3",
-    "zenn-cli": "0.4.7"
+    "zenn-cli": "0.5.2"
   }
 }
